@@ -13,6 +13,8 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.46.1",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
