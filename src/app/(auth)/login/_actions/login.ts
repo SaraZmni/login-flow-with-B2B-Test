@@ -1,4 +1,6 @@
 'use server';
+import { createClient } from '@/utils/supabase/server';
+import { redirect } from 'next/navigation';
 import { z } from 'zod';
 
 
@@ -22,4 +24,19 @@ const schema = z.object({
           errors: data.error.flatten().fieldErrors,
         };
       }
+
+
+      const supabase = createClient();
+
+  const { error } = await supabase.auth.signInWithPassword({
+    email: data.data.email,
+    password: data.data.password,
+  });
+
+  if (error) {
+    return {
+      errors: { email: error.message, password: error.message },
+    };
+  }
+  redirect('/dashboard');
   }
