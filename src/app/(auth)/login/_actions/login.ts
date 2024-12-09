@@ -11,7 +11,6 @@ const schema = z.object({
 
 
   export async function login(currentState: any, formData: FormData) {
-    console.log('login', formData);
 
     const data = schema.safeParse({
         email: formData.get('email'),
