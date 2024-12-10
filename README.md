@@ -58,3 +58,9 @@ This project uses Playwright for comprehensive end-to-end testing. Our test suit
    ```bash
    npx playwright install
 
+
+   1. **run playwright **
+   ```bash
+   npx playwright tests
+
+
