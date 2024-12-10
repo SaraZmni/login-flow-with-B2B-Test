@@ -1,7 +1,5 @@
 # Modern Authentication System 🔐
 
-![Auth System Banner]
-
 A robust authentication system built with Next.js, featuring secure login and registration functionality with comprehensive end-to-end testing using Playwright.
 
 ## Features ✨
@@ -60,6 +58,3 @@ This project uses Playwright for comprehensive end-to-end testing. Our test suit
    ```bash
    npx playwright install
 
-   2. **Run all tests**
-   ```bash
-   npx playwright test
