@@ -57,7 +57,7 @@ This project uses Playwright for comprehensive end-to-end testing. Our test suit
 **1.Install Playwright browsers**
 ```bash
 npx playwright install
-` ``` `
+```
 
 **2.Run Playwright tests**
 ```bash
