@@ -54,13 +54,14 @@ This project uses Playwright for comprehensive end-to-end testing. Our test suit
 
 ### Running Tests
 
-   1. **install playwright browser**
-   ```bash
-   npx playwright install
+  ```markdown
+**1.Install Playwright browsers**
+```bash
+npx playwright install
 
-
-   1. **run playwright **
-   ```bash
-   npx playwright tests
+```markdown
+**2.Run Playwright tests**
+```bash
+npx playwright test
 
 
