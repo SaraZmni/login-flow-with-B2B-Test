@@ -30,6 +30,7 @@ Make sure you have the following installed:
    ```bash
    git clone SaraZmni/login-flow-with-E2E-Test
    cd [ogin-flow-with-E2E-Test]
+   ```
 
    ## Technologies Used 🛠️
 
@@ -62,5 +63,5 @@ npx playwright install
 **2.Run Playwright tests**
 ```bash
 npx playwright test
-
+```
 
