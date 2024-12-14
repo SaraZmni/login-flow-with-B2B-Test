@@ -29,7 +29,7 @@ Make sure you have the following installed:
 1. **Clone the repository**
    ```bash
    git clone SaraZmni/login-flow-with-E2E-Test
-   cd [ogin-flow-with-E2E-Test]
+   cd [login-flow-with-E2E-Test]
    ```
 
    ## Technologies Used 🛠️
